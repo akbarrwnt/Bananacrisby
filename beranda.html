@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Banana Crispy - Home</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-yellow-50 font-sans text-gray-800">
+
+  <!-- Navbar -->
+  <header class="flex justify-between items-center px-6 py-4 bg-white shadow-md">
+    <div class="flex items-center space-x-2">
+      <img src="logo.png" alt="Logo" class="w-8 h-8">
+      <span class="font-bold text-lg">Banana Crisby</span>
+    </div>
+    <nav class="hidden md:flex space-x-4">
+      <a href="beranda.html" class="bg-yellow-300 px-4 py-1 rounded-full text-sm font-medium">Beranda</a>
+      <a href="shop.html" class="bg-yellow-300 px-4 py-1 rounded-full text-sm font-medium">Menu</a>
+      <a href="#" class="bg-yellow-300 px-4 py-1 rounded-full text-sm font-medium">Kontak</a>
+      <a href="shop.html" class="bg-yellow-300 px-4 py-1 rounded-full text-sm font-medium">Pesanan</a>
+    </nav>
+    <div class="flex space-x-2">
+      <a href="register.html" class="bg-yellow-400 text-white px-4 py-1 rounded-full text-sm font-bold">DAFTAR</a>
+      <a href="login.html" class="bg-yellow-400 text-white px-4 py-1 rounded-full text-sm font-bold">MASUK</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative bg-gradient-to-r from-yellow-50 to-yellow-100 py-10 px-6 flex flex-col lg:flex-row items-center justify-between">
+    <div class="max-w-xl">
+      <h1 class="text-4xl font-bold mb-4">Banana Crisby</h1>
+      <p class="mb-4">Nikmati sensasi gurih dan manis dari Banana Crisby, camilan kekinian dari irisan pisang pilihan, digoreng hingga renyah sempurna. Diberi topping cokelat, keju, susu, matcha, hingga karamel. Cocok untuk teman ngopi, nonton, hingga hadiah!</p>
+      <p class="italic font-semibold text-sm mb-4">Rasakan kerenyahannya di setiap gigitan, dan temukan varian rasa favoritmu sekarang juga!</p>
+      <a href="shop.html" class="bg-yellow-400 text-white px-6 py-2 rounded-full">Menu</a>
+    </div>
+    <div class="relative mt-6 lg:mt-0">
+      <img src="logo2.png" alt="Banana Crispy" class="w-100">
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section class="py-10 px-6">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+      <div class="bg-[#e7c6cb] p-4 rounded-lg shadow">
+        <img src="esoyen.png" alt="Es Oyen" class="mx-auto mb-2 w-100">
+        <h3 class="font-bold text-lg">Es Oyen Bibi</h3>
+        <p class="text-sm mt-1 mb-2">Segarnya Es Oyen Bibi, manis legit penuh isi!</p>
+        <a href="shop.html" class="bg-white text-sm text-yellow-500 font-semibold px-4 py-1 rounded-full border">Menu</a>
+      </div>
+      <div class="bg-yellow-300 p-4 rounded-lg shadow">
+        <img src="pisangcrisby.png" alt="Pisang Crisby" class="mx-auto mb-2 w-100">
+        <h3 class="font-bold text-lg">Pisang Crisby</h3>
+        <p class="text-sm mt-1 mb-2">Camilan renyah, cocok buat kapan aja!</p>
+        <a href="shop.html" class="bg-white text-sm text-yellow-500 font-semibold px-4 py-1 rounded-full border">Menu</a>
+      </div>
+      <div class="bg-yellow-400 p-4 rounded-lg shadow">
+        <img src="qtela.png" alt="Ketela Kentang" class="mx-auto mb-2 w-100">
+        <h3 class="font-bold text-lg">Ketela Kentang</h3>
+        <p class="text-sm mt-1 mb-2">Lezatnya ketela dan ubi goreng ala Bibi!</p>
+        <a href="shop.html" class="bg-white text-sm text-yellow-500 font-semibold px-4 py-1 rounded-full border">Menu</a>
+      </div>
+      <div class="bg-[#a0877e] text-white p-4 rounded-lg shadow">
+        <img src="lokasi.png" alt="Kunjungi Toko" class="mx-auto mb-2 w-100">
+        <h3 class="font-bold text-lg">Kunjungi Kami langsung!</h3>
+        <a href="map.html" class="bg-white text-[#a0877e] text-sm font-semibold px-4 py-1 rounded-full border mt-2 inline-block">GO!</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Best Seller Section -->
+  <section class="py-10 px-6">
+    <h2 class="text-2xl font-bold text-center mb-6">Best Seller</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <!-- Produk -->
+      <div class="bg-white rounded-lg shadow p-4 text-center">
+        <img src="pisangcrisby.png" alt="Lumpis" class="w-full h-32 object-cover mb-2">
+        <h4 class="font-semibold">LUMPIS PREMIUM</h4>
+        <p class="text-sm text-gray-600 mb-2">Rp 50.000</p>
+        <button class="bg-yellow-400 text-white px-3 py-1 rounded-full text-sm">+</button>
+      </div>
+      <div class="bg-white rounded-lg shadow p-4 text-center">
+        <img src="qtela.png" alt="Lumpis" class="w-full h-32 object-cover mb-2">
+        <h4 class="font-semibold">QTELA</h4>
+        <p class="text-sm text-gray-600 mb-2">Rp 10.000</p>
+        <button class="bg-yellow-400 text-white px-3 py-1 rounded-full text-sm">+</button>
+      </div>
+    </div>
+    <div class="text-center mt-6">
+      <a href="shop.html" class="bg-white text-sm text-yellow-500 font-semibold px-4 py-1 rounded-full border">Lihat lebih banyak</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-yellow-400 py-4 text-white text-sm px-6 flex flex-col md:flex-row justify-between items-center gap-2">
+    <div class="flex items-center gap-2">
+      <img src="whatsapp.png" alt="WhatsApp" class="w-5 h-5">
+      <span>+62 823-7306-0986</span>
+    </div>
+    <div class="flex items-center gap-2">
+      <img src="location.png" alt="Location" class="w-5 h-5">
+      <span>Jalan Seberantas, Depan SDN 035 Tembilahan, Inhil</span>
+    </div>
+  </footer>
+
+</body>
+</html>
